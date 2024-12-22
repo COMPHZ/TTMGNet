@@ -26,8 +26,8 @@ python train.py
 ## To Test
 cd TTMGnet
 python test.py
---------------------------------------------------
-Pre-trained model to be uploaded later
+
+### Pre-trained model to be uploaded later
 
 ## Dataset
 Downloading the LEVIR-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1L7EJCGMivXm4OayRzjqa8w?pwd=7jp3)

@@ -32,13 +32,13 @@ Downloading the CL-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1rG2PXDvd9
 
 ## overall network
 
-<p align="center"> <img src="Main Stream.png" width="90%"> </p>
+<p align="center"> <img src="fig/Main Stream.png" width="90%"> </p>
 
 ## Results
 
 ### LEVIR Datasset
 #### Qualitative result
-<p align="center"> <img src="Fig/tno.png" width="90%"> </p>
+<p align="center"> <img src="fig/LEVIR_result.png" width="90%"> </p>
 - Six representative images of the LEVIR-CD test set.
 
 #### Quantitative Results
@@ -58,7 +58,7 @@ Downloading the CL-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1rG2PXDvd9
 
 ###  WHU-CD Datasset
 #### Qualitative result
-<p align="center"> <img src="Fig/road.png" width="90%"> </p>
+<p align="center"> <img src="fig/WHU_result.png" width="90%"> </p>
 - Six representative images of the WHU-CD test set.
 
 #### Quantitative Results
@@ -77,7 +77,7 @@ Downloading the CL-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1rG2PXDvd9
 
 ### CL-CD Dataset
 #### Qualitative result
-<p align="center"> <img src="Fig/msrs.png" width="90%"> </p>
+<p align="center"> <img src="fig/CL_result.png" width="90%"> </p>
 - Six representative images of the CL-CD test set.
 
 #### Quantitative Results

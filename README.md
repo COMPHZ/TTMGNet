@@ -19,10 +19,14 @@ If our code is helpful to you, please cite:
 ```
 ## To Train 
  ```
+cd TTMGnet
 python train.py 
 ```
 
 ## To Test
+cd TTMGnet
+python test.py
+--------------------------------------------------
 Pre-trained model to be uploaded later
 
 ## Dataset

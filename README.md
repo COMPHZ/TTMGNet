@@ -25,8 +25,10 @@ python train.py
 ## To Test
 Pre-trained model to be uploaded later
 
-## HBUT dataset
+## Dataset
 Downloading the LEVIR-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1L7EJCGMivXm4OayRzjqa8w?pwd=7jp3)
+Downloading the WHU-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1e0WPuyQVZBIQTzGbuk64ag?pwd=7jp3)
+Downloading the CL-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1rG2PXDvd95D8VmhPfaBi8g?pwd=7jp3)
 
 ## overall network
 
@@ -34,28 +36,27 @@ Downloading the LEVIR-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1L7EJCG
 
 ## Results
 
-### TNO Datasset
+### LEVIR Datasset
 #### Qualitative result
 <p align="center"> <img src="Fig/tno.png" width="90%"> </p>
 - Four representative images of the TNO test set.In alphabetical order they are infrared image, visible image, GTF, FusionGAN, SDNet, RFN–Nest, U2Fusion, LRRNet, SwinFusion, CDDFuse, DATFuse, and GTMFuse.
 
 #### Quantitative Results
 
-|   **Methods**    |   **EN**   |   **SD**   | **SF** | **VIF** | **AG** | **Qabf** |
+|   **Methods**    |   **Precision**   |   **Recall**   | **F1** | **OA** | **mIOU** | **Kappa** |
 |:----------------:|:---------:|:---------:|:---------:|:------------:|:-----------------------:|:---------:|
-| **GTF**         |   6.60008     | 8.69847    |  0.04613     |   0.49451      |  4.36880     |  0.43436   |
-|  **FusionGAN**  |   6.50420     |   8.31568  |  0.03139    |   0.61350      | 3.20322   |  0.25814    |
-| **SDNet**       |   6.58356      | 8.58165    |   0.05916     |  0.63884       | 6.03142    | 0.44332       |
-| **RFN–Nest**    |  6.67323    |  8.80744  |  0.03991      |   0.67467        | 4.11122        |   0.43302   |
-| **U2Fusion**    |  6.90395      | 8.98294     | 0.05854     | 0.68953       |  6.27575     |  0.45158     |
-|   **LRRNet**    |6.70679       |  9.14174   | 0.05434        |0.74519         |4.82270      |  0.38131     |
-|  **SwinFusion** |  6.69018     |  8.74623  | 0.04868       |  0.81244       |   4.74248     |  0.52084    |
-|   **CDDFuse**   |  7.02021      |   8.92531  |   0.06416|    0.82307     |  6.07101     |  0.51846      |
-| **DATFuse**     |   6.77604    |   8.82027   | 0.04612     |   0.82066     | 4.51106      |  0.51235     |
-| **GTMFuse**     | **7.03991**  |**9.22010** | **0.06607**       |   **0.84018**  | **6.65676**  | **0.60472**|
+| **FC-EF**         |   0.7991     | 0.8284    |  0.8135     |   0.9580      |  0.8197     |  0.7899   |
+|  **BITNet**  |   0.8732      |   0.9141  |  0.    |   0.      | 0.   |  0.8796    |
+| **HFANet**       |   0.8336      | 0.9148    |   0.     |  0.       | 0.    | 0.8556       |
+| **MSCANet**    |  0.8375    |  0.9185  |  0.      |   0.        | 0.        |   0.8599   |
+| **DMINet**    |  0.8419      | 0.8669     | 0.     | 0.       |  0.     |  0.8516     |
+|   **SARASNet**    |0.8948       |  0.9264   | 0.        |0.         |0.      |  0.8990     |
+|  **WNet** |  0.8973     |  0.8991  | 0.       |  0.       |   0.     |  0.8850    |
+|  **CSINet** |  0.8861     |  0.9361  | 0.       |  0.       |   0.     |  0.8989    |
+| **TTMGNet**     | **0.9316**  |**0.9146** | **0.9231**       |   **0.9832**  | **0.9192**  | **0.9114**|
 
 
-###  RoadScene Datasset
+###  WHU-CD Datasset
 #### Qualitative result
 <p align="center"> <img src="Fig/road.png" width="90%"> </p>
 - Four representative images of the RoadScene test set.In alphabetical order they are infrared image, visible image, GTF, FusionGAN, SDNet, RFN–Nest, U2Fusion, LRRNet, SwinFusion, CDDFuse, DATFuse, and GTMFuse.
@@ -75,7 +76,7 @@ Downloading the LEVIR-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1L7EJCG
 | **DATFuse**     |   6.89646   |   10.4078  | 0.05495      |    0.79045     | 5.06397     |  0.50003     |
 | **GTMFuse**     | 7.35795  |10.5113| 0.08181      |   **0.87918**  | 7.92432   | **0.60665**  |
 
-### MSRS Dataset
+### CL-CD Dataset
 #### Qualitative result
 <p align="center"> <img src="Fig/msrs.png" width="90%"> </p>
 - Four representative images of the MSRS test set. In alphabetical order they are infrared image, visible image, GTF, FusionGAN, SDNet, RFN–Nest, U2Fusion, LRRNet, SwinFusion, CDDFuse, DATFuse, and GTMFuse.

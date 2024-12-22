@@ -30,7 +30,7 @@ Downloading the LEVIR-CD dataset from [LEVIR-CD](https://pan.baidu.com/s/1L7EJCG
 
 ## overall network
 
-<p align="center"> <img src="Fig/overall network.png" width="90%"> </p>
+<p align="center"> <img src="Main Stream.png" width="90%"> </p>
 
 ## Results
 
